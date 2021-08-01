@@ -1,0 +1,429 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"26 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\atraso.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"29 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\i2c.c
+[v _delay delay `(v  1 e 1 0 ]
+"46
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"54
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"62
+[v _i2c_wb i2c_wb `(v  1 e 1 0 ]
+"78
+[v _i2c_rb i2c_rb `(uc  1 e 1 0 ]
+"35 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+"39
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+"87
+[v _kpInit kpInit `(v  1 e 1 0 ]
+"30 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\lcd.c
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+"35
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"46
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+"57
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"76
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+"11 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"44 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\pwm.c
+[v _pwmFrequency pwmFrequency `(v  1 e 1 0 ]
+"51
+[v _pwmInit pwmInit `(v  1 e 1 0 ]
+"33 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\rtc_r.c
+[v _getd getd `(uc  1 e 1 0 ]
+"38
+[v _getu getu `(uc  1 e 1 0 ]
+"44
+[v _rtc_r rtc_r `(v  1 e 1 0 ]
+"30 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\serial.c
+[v _serialRead serialRead `(uc  1 e 1 0 ]
+"48
+[v _serialInit serialInit `(v  1 e 1 0 ]
+"53 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"272
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"451
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S94 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"498
+[s S374 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S383 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S392 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S396 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S400 . 1 `S94 1 . 1 0 `S374 1 . 1 0 `S383 1 . 1 0 `S392 1 . 1 0 `S396 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES400  1 e 1 @3970 ]
+"633
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"775
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+[s S208 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"833
+[s S213 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S218 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S220 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S223 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S226 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S229 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S234 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S239 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S244 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[u S249 . 1 `S208 1 . 1 0 `S213 1 . 1 0 `S218 1 . 1 0 `S220 1 . 1 0 `S223 1 . 1 0 `S226 1 . 1 0 `S229 1 . 1 0 `S234 1 . 1 0 `S239 1 . 1 0 `S244 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES249  1 e 1 @3972 ]
+"1478
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1700
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1922
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S85 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1954
+[u S103 . 1 `S85 1 . 1 0 `S94 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES103  1 e 1 @3988 ]
+"2144
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2366
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"2672
+[v _PIR1 PIR1 `VEuc  1 e 1 @3998 ]
+"3111
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3321
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3577
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3589
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3601
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3613
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"4222
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"4502
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"4606
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"4691
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"5316
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"5414
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"25 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\keypad.c
+[v _valor valor `ui  1 s 2 valor ]
+"29 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\rtc_r.c
+[v _date date `VE[10]uc  1 e 10 0 ]
+"30
+[v _time time `VE[10]uc  1 e 10 0 ]
+"11 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"14
+[v main@tmp tmp `[14]uc  1 a 14 59 ]
+[v main@ctmp ctmp `[14]uc  1 a 14 45 ]
+[v main@btmp btmp `[14]uc  1 a 14 31 ]
+[v main@atmp atmp `[14]uc  1 a 14 17 ]
+"12
+[v main@tecla tecla `ui  1 a 2 75 ]
+"13
+[v main@i i `uc  1 a 1 77 ]
+[v main@cont cont `uc  1 a 1 74 ]
+[v main@k k `uc  1 a 1 73 ]
+"169
+} 0
+"30 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\serial.c
+[v _serialRead serialRead `(uc  1 e 1 0 ]
+{
+"31
+[v serialRead@resp resp `uc  1 a 1 0 ]
+"46
+} 0
+"48
+[v _serialInit serialInit `(v  1 e 1 0 ]
+{
+"56
+} 0
+"44 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\rtc_r.c
+[v _rtc_r rtc_r `(v  1 e 1 0 ]
+{
+"46
+[v rtc_r@tmp tmp `uc  1 a 1 9 ]
+"89
+} 0
+"62 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\i2c.c
+[v _i2c_wb i2c_wb `(v  1 e 1 0 ]
+{
+[v i2c_wb@val val `uc  1 a 1 wreg ]
+"63
+[v i2c_wb@i i `uc  1 a 1 7 ]
+"62
+[v i2c_wb@val val `uc  1 a 1 wreg ]
+"64
+[v i2c_wb@val val `uc  1 a 1 6 ]
+"76
+} 0
+"54
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"60
+} 0
+"46
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"52
+} 0
+"78
+[v _i2c_rb i2c_rb `(uc  1 e 1 0 ]
+{
+[v i2c_rb@ack ack `uc  1 a 1 wreg ]
+"79
+[v i2c_rb@i i `uc  1 a 1 8 ]
+"80
+[v i2c_rb@ret ret `uc  1 a 1 7 ]
+"78
+[v i2c_rb@ack ack `uc  1 a 1 wreg ]
+"80
+[v i2c_rb@ack ack `uc  1 a 1 6 ]
+"102
+} 0
+"29
+[v _delay delay `(v  1 e 1 0 ]
+{
+"30
+[v delay@i i `ui  1 a 2 0 ]
+"31
+[v delay@k k `VEuc  1 a 1 3 ]
+[v delay@j j `VEuc  1 a 1 2 ]
+"38
+} 0
+"38 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\rtc_r.c
+[v _getu getu `(uc  1 e 1 0 ]
+{
+[v getu@nn nn `uc  1 a 1 wreg ]
+[v getu@nn nn `uc  1 a 1 wreg ]
+"40
+[v getu@nn nn `uc  1 a 1 0 ]
+"41
+} 0
+"33
+[v _getd getd `(uc  1 e 1 0 ]
+{
+[v getd@nn nn `uc  1 a 1 wreg ]
+[v getd@nn nn `uc  1 a 1 wreg ]
+"35
+[v getd@nn nn `uc  1 a 1 0 ]
+"36
+} 0
+"51 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\pwm.c
+[v _pwmInit pwmInit `(v  1 e 1 0 ]
+{
+"61
+} 0
+"44
+[v _pwmFrequency pwmFrequency `(v  1 e 1 0 ]
+{
+[v pwmFrequency@freq freq `ui  1 p 2 14 ]
+"49
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"41
+} 0
+"76 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\lcd.c
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+{
+"78
+[v lcd_str@i i `uc  1 a 1 11 ]
+"76
+[v lcd_str@str str `*.35Cuc  1 p 2 7 ]
+"85
+} 0
+"46
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+{
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+"48
+[v lcd_dat@val val `uc  1 a 1 6 ]
+"55
+} 0
+"57
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"74
+} 0
+"35
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+"37
+[v lcd_cmd@val val `uc  1 a 1 6 ]
+"44
+} 0
+"30
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+{
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+"32
+[v lcd_wr@val val `uc  1 a 1 0 ]
+"33
+} 0
+"26 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\atraso.c
+[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
+{
+"27
+[v atraso_ms@i i `ui  1 a 2 2 ]
+"28
+[v atraso_ms@k k `VEuc  1 a 1 5 ]
+[v atraso_ms@j j `VEuc  1 a 1 4 ]
+"26
+[v atraso_ms@valor valor `ui  1 p 2 0 ]
+"35
+} 0
+"35 C:\Users\Marina\OneDrive\Área de Trabalho\UNIFEI\3ºSemestre\Lab. Embarcada\p1-projeto.X\keypad.c
+[v _kpRead kpRead `(ui  1 e 2 0 ]
+{
+"37
+} 0
+"87
+[v _kpInit kpInit `(v  1 e 1 0 ]
+{
+"92
+} 0
+"39
+[v _kpDebounce kpDebounce `(v  1 e 1 0 ]
+{
+"63
+[v kpDebounce@k k `i  1 a 2 6 ]
+"40
+[v kpDebounce@i i `uc  1 a 1 9 ]
+[v kpDebounce@j j `uc  1 a 1 8 ]
+"46
+[v kpDebounce@old_D old_D `uc  1 a 1 5 ]
+"41
+[v kpDebounce@tempo tempo `uc  1 s 1 tempo ]
+"42
+[v kpDebounce@valorNovo valorNovo `ui  1 s 2 valorNovo ]
+"43
+[v kpDebounce@valorAntigo valorAntigo `ui  1 s 2 valorAntigo ]
+"85
+} 0
